@@ -1,0 +1,20 @@
+[project]
+name = "jsonpingpong"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "PokkaKiyo", email = "e0030925@u.nus.edu" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "msgspec>=0.19.0",
+    "polyfactory>=2.18.1",
+]
+
+[project.scripts]
+jsonpingpong = "jsonpingpong:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
